@@ -1,0 +1,17 @@
+### 1. Send Command (User -> Cloud)
+POST http://localhost:3000/api/devices/command/dev-123
+Content-Type: application/json
+
+{
+    "type": "watering_mode",
+    "value": "high"
+}
+
+### 2. Send Telemetry (Device -> Cloud)
+POST http://localhost:3000/api/devices/telemetry/dev-123
+Content-Type: application/json
+
+{
+    "battery": 92,
+    "status": "online"
+}
