@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler", // This allows no extensions or .ts extensions
+    "allowImportingTsExtensions": true,
+    "noEmit": true, // Required by TS when allowImportingTsExtensions is true
+    "esModuleInterop": true,
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "isolatedModules": true
+  }
+}
